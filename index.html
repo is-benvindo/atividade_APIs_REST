@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Seção da API da NASA -->
+    <section class="blog-post">
+        <h2>Obter foto da NASA</h2>
+        <button id="obter-foto">Obter foto</button>
+        <h3 id="foto-titulo" style="display:none;"></h3>
+        <img id="foto-saida" alt="Foto da NASA" style="display:none;">
+        <p id="foto-descricao" style="display:none;"></p>
+    </section>
+
+    <!-- Seção da API de Informações do Filme -->
+    <section class="blog-post">
+        <h2>Obter informações do filme</h2>
+        <button id="obter-info">Obter Informações do Filme</button>
+        <div id="info-filme" style="display:none;">
+            <img id="filme-poster" alt="Poster do Filme" style="display:block;">
+            <p id="filme-titulo"></p>
+            <p id="filme-ano"></p>
+            <p id="filme-sinopse"></p>
+            <a id="filme-imdb" href="#" target="_blank">IMDb</a>
+        </div>
+    </section>
+
+    <!-- Seção da API dos Gatos -->
+    <section class="blog-post">
+        <h2>Obter uma Imagem Aleatória de Gato</h2>
+        <button id="obter-imagem-gato">Obter Imagem de Gato</button>
+        <img id="imagem-gato" alt="Imagem de Gato Aleatório" style="display:none;">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
